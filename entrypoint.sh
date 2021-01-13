@@ -54,6 +54,10 @@ case $5 in
     amplify publish $9 --yes
     ;;
 
+  codegen)
+    amplify codegen $9
+    ;;
+
   status)
     amplify status $9
     ;;
