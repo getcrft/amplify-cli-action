@@ -53,6 +53,10 @@ case $5 in
   publish)
     amplify publish $9 --yes
     ;;
+    
+  compile_graphql)
+    amplify api gql-compile $9
+    ;;
 
   codegen)
     amplify codegen $9
