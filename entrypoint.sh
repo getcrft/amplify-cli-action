@@ -89,6 +89,7 @@ case $5 in
     AWSCLOUDFORMATIONCONFIG="{\
     \"configLevel\":\"project\",\
     \"useProfile\":false,\
+    \"profileName\":\"default\",\
     \"accessKeyId\":\"$AWS_ACCESS_KEY_ID\",\
     \"secretAccessKey\":\"$AWS_SECRET_ACCESS_KEY\",\
     \"region\":\"$AWS_REGION\"\
